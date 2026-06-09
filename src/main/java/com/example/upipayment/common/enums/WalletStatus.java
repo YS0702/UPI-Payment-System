@@ -1,4 +1,5 @@
 ﻿package com.example.upipayment.common.enums;
 
-public class WalletStatus {
+public enum WalletStatus {
+    ACTIVE, BLOCKED, CLOSED
 }
