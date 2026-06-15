@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.wallet.dto.response;
+package com.example.upipayment.wallet.dto.response;
 
 public class WalletBalanceResponseDTO {
 }

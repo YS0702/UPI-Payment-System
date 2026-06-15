@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.wallet.service.impl;
+package com.example.upipayment.wallet.service.impl;
 
 public class WalletServiceImpl {
 }

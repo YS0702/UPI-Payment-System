@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.user.mapper;
+package com.example.upipayment.user.mapper;
 
 public class UserMapper {
 }

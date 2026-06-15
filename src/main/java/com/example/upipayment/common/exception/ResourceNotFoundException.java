@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.common.exception;
+package com.example.upipayment.common.exception;
 
 public class ResourceNotFoundException {
 }

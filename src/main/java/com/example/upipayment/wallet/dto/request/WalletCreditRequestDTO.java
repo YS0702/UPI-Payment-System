@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.wallet.dto.request;
+package com.example.upipayment.wallet.dto.request;
 
 public class WalletCreditRequestDTO {
 }

@@ -1,0 +1,29 @@
+POST http://localhost:8081/api/v1/users/register
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2026-06-15T130256.200.txt
+
+###
+
+POST http://localhost:8081/api/v1/users/register
+Content-Type: application/json
+Content-Length: 139
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2026.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "fullName": "Akshata",
+  "mobileNumber": "9876543210",
+  "email": "akshata@gmail.com",
+  "upiId": "akshata@upi",
+  "password": "1234"
+}
+
+<> 2026-06-15T115511.404.json
+
+###
+

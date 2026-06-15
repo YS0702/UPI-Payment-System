@@ -1,4 +1,2 @@
-﻿package com.example.upipayment.common.util;
-
-public class MoneyUtil {
-}
+package com.example.upipayment.common.util;
+public class MoneyUtil{ }

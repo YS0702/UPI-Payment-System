@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.payment.strategy;
+package com.example.upipayment.payment.strategy;
 
 public class ExternalWalletPaymentStrategy {
 }

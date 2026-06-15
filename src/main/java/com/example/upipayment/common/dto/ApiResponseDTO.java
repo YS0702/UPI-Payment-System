@@ -1,4 +1,5 @@
-﻿package com.example.upipayment.common.dto;
+package com.example.upipayment.common.dto;
+public class ApiResponseDTO{
 
-public class ApiResponseDTO {
+
 }

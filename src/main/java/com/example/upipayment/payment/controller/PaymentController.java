@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.payment.controller;
+package com.example.upipayment.payment.controller;
 
 public class PaymentController {
 }

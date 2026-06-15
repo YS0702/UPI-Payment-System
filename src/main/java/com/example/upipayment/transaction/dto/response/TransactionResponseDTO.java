@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.transaction.dto.response;
+package com.example.upipayment.transaction.dto.response;
 
 public class TransactionResponseDTO {
 }

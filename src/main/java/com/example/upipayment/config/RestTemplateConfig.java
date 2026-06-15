@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.config;
+package com.example.upipayment.config;
 
 public class RestTemplateConfig {
 }
