@@ -1,4 +1,4 @@
 package com.example.upipayment.user.service.impl;
 
-public class UserService {
+public class UserServiceImpl {
 }
