@@ -1,4 +1,6 @@
-﻿package com.example.upipayment.user.service;
+package com.example.upipayment.user.service;
 
-public class UserService {
+public interface UserService {
+
+    void createUser(String name, String mobile, String upiId);
 }

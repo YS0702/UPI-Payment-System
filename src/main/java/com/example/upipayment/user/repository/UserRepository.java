@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.user.repository;
+package com.example.upipayment.user.repository;
 
 public class UserRepository {
 }

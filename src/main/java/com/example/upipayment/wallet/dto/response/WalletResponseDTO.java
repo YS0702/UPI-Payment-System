@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.wallet.dto.response;
+package com.example.upipayment.wallet.dto.response;
 
 import lombok.*;
 import java.math.BigDecimal;

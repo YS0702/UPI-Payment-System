@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.config;
+package com.example.upipayment.config;
 
 
 import org.springframework.context.annotation.Configuration;

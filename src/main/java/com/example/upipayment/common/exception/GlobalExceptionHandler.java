@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.common.exception;
+package com.example.upipayment.common.exception;
 
 import com.example.upipayment.common.dto.ApiResponseDTO;
 import org.springframework.http.HttpStatus;

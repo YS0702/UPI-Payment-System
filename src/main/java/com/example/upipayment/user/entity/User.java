@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.user.entity;
+package com.example.upipayment.user.entity;
 
 public class User {
 }

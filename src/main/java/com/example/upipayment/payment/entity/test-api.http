@@ -1,0 +1,10 @@
+POST http://localhost:8081/api/v1/users/register
+Content-Type: application/json
+
+{
+  "fullName": "Akshata",
+  "mobileNumber": "9876543210",
+  "email": "akshata@gmail.com",
+  "upiId": "akshata@upi",
+  "password": "1234"
+}

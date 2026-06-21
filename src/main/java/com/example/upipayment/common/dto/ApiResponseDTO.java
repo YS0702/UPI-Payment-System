@@ -1,6 +1,7 @@
-﻿package com.example.upipayment.common.dto;
+package com.example.upipayment.common.dto;
 
 import lombok.*;
+
 import java.time.LocalDateTime;
 
 @Getter

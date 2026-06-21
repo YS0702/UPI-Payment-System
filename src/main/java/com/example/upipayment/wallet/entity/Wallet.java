@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.wallet.entity;
+package com.example.upipayment.wallet.entity;
 
 import com.example.upipayment.common.enums.WalletStatus;
 import com.example.upipayment.user.entity.User;
