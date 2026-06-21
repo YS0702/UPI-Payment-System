@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "payments")   // Ã¢Å“â€¦ REMOVED unique constraint for now
+@Table(name = "payments")
 @Getter
 @Setter
 @NoArgsConstructor
@@ -21,17 +21,14 @@ public class Payment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    // Ã¢Å“â€¦ IMPORTANT: column name must match exactly
     @Column(name = "transaction_id")
     private String transactionId;
 
     private BigDecimal amount;
 
-    // Ã¢Å“â€¦ REQUIRED FOR ENUMS
     @Enumerated(EnumType.STRING)
     private TransactionStatus status;
 
-    // Ã¢Å“â€¦ REQUIRED FOR ENUMS
     @Enumerated(EnumType.STRING)
     private PaymentProviderType providerType;
 

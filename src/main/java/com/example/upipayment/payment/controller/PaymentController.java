@@ -21,20 +21,20 @@ public class PaymentController {
     public ResponseEntity<ApiResponseDTO<PaymentResponseDTO>> initiatePayment(
             @Valid @RequestBody PaymentInitiateRequestDTO request
             ) {
-        return ResponseEntity.ok(ApiResponseDTO.success("Payment processed", paymentService.initiatePayment(request));
+        return ResponseEntity.ok(ApiResponseDTO.success("Payment processed", paymentService.initiatePayment(request)));
     }
 
     @PostMapping("/validate")
     public ResponseEntity<ApiResponseDTO<PaymentValidationResponseDTO>> validatePayment(
             @Valid @RequestBody PaymentValidationRequestDTO request
             ) {
-        return ResponseEntity.ok(ApiResponseDTO.success("Payment validated", paymentService.validatePayment(request));
+        return ResponseEntity.ok(ApiResponseDTO.success("Payment validated", paymentService.validatePayment(request)));
     }
 
     @GetMapping("/{transactionId}")
     public ResponseEntity<ApiResponseDTO<PaymentResponseDTO>> getPaymentStatus(
             @PathVariable String transactionId
     ) {
-        return ResponseEntity.ok(ApiResponseDTO.success("Payment status fetched", paymentService.getPaymentStatus(transactionId));
+        return ResponseEntity.ok(ApiResponseDTO.success("Payment status fetched", paymentService.getPaymentStatus(transactionId)));
     }
 }
