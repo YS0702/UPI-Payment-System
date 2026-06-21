@@ -1,10 +1,5 @@
 package com.example.upipayment.common.dto;
-public class ApiResponseDTO{
 
-<<<<<<< HEAD
-
-}
-=======
 import lombok.*;
 
 import java.time.LocalDateTime;
@@ -39,4 +34,3 @@ public class ApiResponseDTO<T> {
                 .build();
     }
 }
->>>>>>> 21f81840c36dc72ab3ad6967683d229aeee6ef45
