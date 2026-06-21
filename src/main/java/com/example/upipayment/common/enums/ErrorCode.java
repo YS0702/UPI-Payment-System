@@ -1,4 +1,6 @@
 ﻿package com.example.upipayment.common.enums;
 
-public class ErrorCode {
+
+public enum ErrorCode {
+    USER_NOT_FOUND, WALLET_NOT_FOUND, INVALID_VPA, INSUFFICIENT_BALANCE, PAYMENT_FAILED, DUPLICATE_USER, VALIDATION_ERROR, UNSUPPORTED_PROVIDER
 }
