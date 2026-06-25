@@ -6,15 +6,17 @@ spring:
     name: upi-payment-system
 
   datasource:
-    url: jdbc:mysql://localhost:3306/upi_payment_system
-    username: root
+    url: jdbc:postgresql://localhost:5432/upi_payment_db
+    username: postgres
     password: password
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
       ddl-auto: update
+
     show-sql: true
+
     properties:
       hibernate:
-        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect

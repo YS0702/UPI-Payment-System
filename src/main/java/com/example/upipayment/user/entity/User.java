@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.user.entity;
+package com.example.upipayment.user.entity;
 
 import com.example.upipayment.wallet.entity.Wallet;
 import jakarta.persistence.*;

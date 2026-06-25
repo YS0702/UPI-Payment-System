@@ -1,6 +1,6 @@
 # UPI Payment System
 
-A production-style **UPI Payment System** developed using **Spring Boot**, **Java**, **MySQL**, and **Layered Architecture**. The project simulates real-world UPI payment workflows including user management, wallet operations, payment processing, transaction tracking, and VPA validation.
+A production-style **UPI Payment System** developed using **Spring Boot**, **Java**, **PostgreSQL**, and **Layered Architecture**. The project simulates real-world UPI payment workflows including user management, wallet operations, payment processing, transaction tracking, and VPA validation.
 
 ***
 
@@ -35,7 +35,7 @@ Service Layer
 Repository Layer
    │
    ▼
-MySQL Database
+PostgreSQL Database
 ```
 
 ### Design Patterns Used
@@ -218,7 +218,7 @@ SUCCESS   FAILED
 
 ### Database
 
-* MySQL
+* PostgreSQL
 
 ### Build Tool
 
@@ -248,9 +248,9 @@ Update configuration:
 ```yaml
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/upi_payment_system
-    username: root
-    password: root
+    url: jdbc:postgresql://localhost:5432/upi_payment_db
+    username: postgres
+    password: password
 ```
 
 ***

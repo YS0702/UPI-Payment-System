@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.user.repository;
+package com.example.upipayment.user.repository;
 
 import com.example.upipayment.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;

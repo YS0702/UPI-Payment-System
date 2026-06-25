@@ -1,4 +1,4 @@
-﻿package com.example.upipayment.common.util;
+package com.example.upipayment.common.util;
 // VPA - Virtual Payment Address OR UPI ID
 public final class VpaValidator {
     private VpaValidator() { }
